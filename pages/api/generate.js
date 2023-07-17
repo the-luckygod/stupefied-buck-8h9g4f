@@ -8,7 +8,7 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 const basePromptPrefix = `
-Write me a short article or essay for a blog post with the title below.
+Write me a short article or essay for the title below. 
 Title:
 `;
 
