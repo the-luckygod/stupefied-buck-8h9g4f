@@ -4,7 +4,8 @@ const prompts = [
     subtitle:
       "Input the title to your article or essay, we'll generate the rest.",
     basePrompt: `
-        Write me a short article or essay with title for about:
+        Write me a short article or essay for the title below. 
+        Title:
         `,
   },
   {
